@@ -40,5 +40,3 @@ terraform detroy
 
 
 Lucas LONGOBARDI
-
-https://drive.google.com/file/d/1ijuIGNw2sbANYz9Ib7UJch1ThX3JaJX6/view?usp=drive_link
