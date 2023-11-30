@@ -46,10 +46,13 @@ terraform destroy
 **script python**
 
     import subprocess
-    
-    subprocess.run(["terraform", "apply", "-auto-approve"], check=True)
+    import sys
 
-python terra.py
+    nom_du_repo = sys.argv[1]
+
+    subprocess.run(['terraform', 'apply', '-var', f'nom_du_repo={nom_du_repo}'])
+
+python terraform.py hello85
 
 terraform init
 terraform plan
